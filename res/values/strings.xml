@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="main_instructions_text"><font fgcolor="#ffffffff"><b>How to use the application?</b></font>\n
+		\nIt\'s recommended to backup your contacts before proceeding. For more information, please visit:\nhttp://www.qontactsapp.com\n
+		\nTo start, click <b>Analyze Contacts</b> button, to start analyzing your contacts. If any of your contacts needs to be updated, it\'ll be displayed next.\n
+		\nYou can preview each contact\'s updated numbers by tapping the name.\n
+		\nTo do a batch update of your contacts, you can click the check mark to mark it, click it again to unmark it. When you\'re done, click <b>Update</b> button.\n
+	</string>
+    <string name="app_name">Qontacts</string>
+    <string name="app_description">Qontacts updates your contacts to the new Qatari Numbering Plan, it\'s developed by Abdulrahman S. K. Alotaiba</string>
+	<string name="analyze_contacts">Analyze Contacts</string>
+	<string name="update_list_action">Update</string>
+	<string name="update_contact">Update contact</string>
+	<string name="main_no_items"><b>No contacts to update.</b></string>
+	<plurals name="contact_list_update_notification">
+		<item quantity="one">1 contact was updated successfully.</item>
+		<item quantity="other"><xliff:g id="contacts_count" example="279">%d</xliff:g> contacts were updated successfully.</item>
+	</plurals>
+	<plurals name="contact_list_update_confirm_dialog">
+		<item quantity="one">Are you sure you want to update <xliff:g id="contacts_count" example="1">%d</xliff:g> contact?</item>
+		<item quantity="other">Are you sure you want to update <xliff:g id="contacts_count" example="279">%d</xliff:g> contacts?</item>
+	</plurals>
+	<string name="contact_list_update_confirm_context_dialog">Are you sure you want to update this %s\'s phone numbers?</string>
+	<string name="contact_list_update_button">Update (<xliff:g id="contacts_count" example="279">%d</xliff:g>)</string>
+	<string name="analyzing_contacts">Analyzing contacts...</string>
+	<string name="updating_contacts">Updating contacts...</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="contact_single_update_confirm_dialog">Are you sure you want to update %s?</string>
+	<string name="contact_single_update_notification">%s was updated successfully.</string>
+	<plurals name="contact_single_current_numbers_title">
+		<item quantity="one">Current Number (<xliff:g id="current_numbers_count" example="1">%d</xliff:g>)</item>
+		<item quantity="other">Current Numbers (<xliff:g id="current_numbers_count" example="279">%d</xliff:g>)</item>
+	</plurals>
+	<plurals name="contact_single_updated_numbers_title">
+		<item quantity="one">Updated Number (<xliff:g id="updated_numbers_count" example="1">%d</xliff:g>)</item>
+		<item quantity="other">Updated Numbers (<xliff:g id="updated_numbers_count" example="279">%d</xliff:g>)</item>
+	</plurals>
+	<string name="select_all">Select all</string>
+	<string name="select_none">Select none</string>
+	<string name="version_name">1.0</string>
+	<string name="about">About</string>
+	<string name="about_qontacts">About Qontacts</string>
+	<string name="developed_by">Developed By:</string>
+	<string name="developer_name">Abdulrahman S. K. Alotaiba</string>
+	<!-- Copyright sign © can be expressed in unicode as \u00A9 -->
+	<string name="copyright_string">Copyright © 2010 Abdulrahman Alotaiba. All rights reserved.</string>
+	<string name="this_may_take_few_minutes">This may take few minutes.</string>
+	<string name="contacts_list">Contacts List</string>
+	<string name="preview">Preview</string>
+	<string name="NUMBER_TYPE_WORK">Work</string>
+	<string name="NUMBER_TYPE_PAGER">Pager</string>
+	<string name="NUMBER_TYPE_OTHER">Other</string>
+	<string name="NUMBER_TYPE_MOBILE">Mobile</string>
+	<string name="NUMBER_TYPE_HOME">Home</string>
+	<string name="NUMBER_TYPE_FAX_WORK">Work Fax</string>
+	<string name="NUMBER_TYPE_FAX_HOME">Home Fax</string>
+	<string name="unknown">Unknown</string>
+</resources>

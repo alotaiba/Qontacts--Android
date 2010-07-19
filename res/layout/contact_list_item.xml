@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mawqey.qontacts.activity.ContactListItem
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:padding="6dip">
+	<ImageView
+		android:id="@+id/selected"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingTop="12dip"
+		android:paddingLeft="4dip"
+		android:src="@drawable/btn_check_buttonless_dark_off" />
+	<TextView
+		android:id="@+id/count"
+		android:background="@drawable/contact_list_count_bg"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal|center_vertical"
+		android:singleLine="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="10dip"
+		android:layout_marginTop="10dip" />
+	<TextView
+		android:id="@+id/contact_list_item_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/selected"
+		android:layout_toLeftOf="@id/count"
+		android:ellipsize="end"
+		android:singleLine="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:drawablePadding="4dip"
+		android:paddingTop="12dip" />
+
+</com.mawqey.qontacts.activity.ContactListItem>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ListView 
+		android:id="@+id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginBottom="50dip" />
+	<TextView  
+		android:id="@+id/android:empty"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:text="@string/main_no_items"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:textAppearance="?android:attr/textAppearanceSmall"
+	    android:textColor="?android:attr/textColorPrimary"
+	    />
+	<LinearLayout
+		android:layout_marginTop="-50dip"
+		android:gravity="bottom"
+		android:id="@+id/contact_list_footer"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone">
+		<Button
+			android:id="@+id/btn_select_list"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:enabled="true"
+			android:text="@string/select_all" />
+		<Button
+			android:id="@+id/btn_update_list"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:enabled="false"
+			android:text="@string/update_list_action" />
+	</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+		<TextView
+			android:id="@+id/about_title"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/app_name"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:textColor="?android:attr/textColorPrimary"
+		    android:gravity="center_horizontal"
+		    />
+	
+		<RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:paddingLeft="52dip">
+		
+			<TextView
+				android:id="@+id/about_v"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="v."
+			    android:textAppearance="?android:attr/textAppearanceSmall"
+			    android:textColor="?android:attr/textColorSecondary"
+			    />
+			    
+			<TextView
+				android:id="@+id/about_version"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:layout_toRightOf="@id/about_v"
+			    android:text="@string/version_name"
+			    android:textAppearance="?android:attr/textAppearanceSmall"
+			    android:textColor="?android:attr/textColorSecondary"
+			    />
+		</RelativeLayout>    
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:gravity="center_vertical"
+		android:layout_marginBottom="50dip" >
+		
+		<TextView
+			android:id="@+id/about_developed_by"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/developed_by"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="?android:attr/textColorPrimary"
+		    android:gravity="center_horizontal"
+		    />
+	
+		<TextView
+			android:id="@+id/about_developer"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/developer_name"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="?android:attr/textColorSecondary"
+		    android:gravity="center_horizontal"
+		    />
+		    
+		<TextView
+			android:id="@+id/about_weblink"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="http://www.qontactsapp.com/"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:gravity="center_horizontal"
+		    android:autoLink="web"
+		    />
+		    
+	</LinearLayout>
+	
+	<TextView
+		android:id="@+id/about_copyright"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:text="@string/copyright_string"
+	    android:textAppearance="?android:attr/textAppearanceSmall"
+	    android:textColor="?android:attr/textColorSecondary"
+	    android:layout_marginTop="-50dip"
+	    android:gravity="center_horizontal|bottom"
+	    />
+	
+</LinearLayout>

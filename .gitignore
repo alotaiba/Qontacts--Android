@@ -1,0 +1,11 @@
+# Compiled source #
+###################
+/bin
+/gen
+/compiled
+
+# Eclipse Specifics #
+#####################
+.settings/
+.externalToolBuilders/
+.classpath

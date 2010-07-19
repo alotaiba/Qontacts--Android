@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginBottom="50dip" >
+		<LinearLayout
+			android:id="@+id/contact_view"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			
+			<FrameLayout
+				android:id="@+id/contact_header_widget"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" >
+				
+				<RelativeLayout
+					android:id="@+id/contact_view"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:padding="10dip">
+				
+					<ImageView
+						android:layout_height="70px"
+						android:layout_width="70px"
+						android:id="@+id/contact_photo"
+						android:src="@drawable/unknown"				
+						/>
+					
+					<TextView 
+						android:id="@+id/contact_name"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:textStyle="bold"
+						android:singleLine="true"
+						android:ellipsize="end"
+						android:layout_gravity="center_vertical"
+						android:shadowRadius="2.75"
+						android:text="test"
+						android:paddingTop="3dip"
+						android:paddingLeft="10dip"
+						android:layout_toRightOf="@id/contact_photo"
+						/>
+						
+				</RelativeLayout>
+			</FrameLayout>
+			
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="1px"
+				android:layout_alignParentBottom="true"
+				android:background="?android:attr/listDivider"
+				android:layout_marginTop="5dip"
+				/>
+			
+			<TextView
+				android:id="@+id/contact_current_numbers_title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:layout_marginLeft="5dip"
+				android:textColor="?android:attr/textColorPrimary"
+				/>
+			
+			<LinearLayout
+				android:id="@+id/contact_current_numbers_strings"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:padding="5dip"
+				/>
+				
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="1px"
+				android:layout_alignParentBottom="true"
+				android:background="?android:attr/listDivider"
+				android:layout_marginTop="5dip"
+				/>
+		
+			<TextView
+				android:id="@+id/contact_updated_numbers_title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:layout_marginLeft="5dip"
+				android:textColor="?android:attr/textColorPrimary"
+				/>
+			
+			<LinearLayout
+				android:id="@+id/contact_updated_numbers_strings"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:padding="5dip"
+				/>
+				
+	
+		</LinearLayout>
+	</ScrollView>
+
+	<RelativeLayout 
+		android:layout_marginTop="-50dip" 
+		android:gravity="bottom" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent">
+		<Button
+			android:id="@+id/btn_update_single"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/update_list_action" />
+	</RelativeLayout>
+
+</LinearLayout>

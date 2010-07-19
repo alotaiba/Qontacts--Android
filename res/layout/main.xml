@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <ScrollView
+    	android:id="@+id/main_instructions"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="50dip"
+		>
+		<TextView
+			android:id="@+id/main_instructions_text"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/main_instructions_text"
+		    android:textSize="20sp"
+		    android:textColor="?android:attr/textColorSecondary"
+		    android:paddingLeft="10dip"
+		    android:paddingRight="10dip"
+		    android:paddingTop="10dip"
+		    android:lineSpacingMultiplier="0.92"
+		    android:autoLink="web"
+		    />
+	</ScrollView>
+	<RelativeLayout 
+		android:layout_marginTop="-50dip" 
+		android:gravity="bottom" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent">
+		<Button
+			android:id="@+id/btn_analyze_contacts"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/analyze_contacts" />
+	</RelativeLayout>
+</LinearLayout>
